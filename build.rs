@@ -1,7 +1,7 @@
 use std::env;
 
 fn main() {
-    let target_dir = env::var("FFMPEG_LIB_DIR").unwrap();
+    let target_dir = env::var("FFMPEG_DIR").unwrap();
     let lib_dir = format!("{}/lib", target_dir);
 
     println!("cargo:rustc-link-search=native={}", lib_dir);
