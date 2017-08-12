@@ -4,7 +4,7 @@
 
 extern crate libc;
 
-include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
+include!(concat!("./bindings.rs"));
 
 #[macro_use]
 mod avutil;
