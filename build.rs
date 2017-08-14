@@ -6,6 +6,9 @@ fn main() {
     if let Ok(target_dir) = env::var("FFMPEG_DIR") {
         link_method = "static";
         link_dir = format!("{}/lib", target_dir);
+    } else if let Ok(dir) = env::var("FFMPEG_LIB_DIR") {
+        link_method = "dylib";
+        link_dir = format!("{}", dir);
     } else {
         link_method = "dylib";
         link_dir = format!("/usr/lib");
