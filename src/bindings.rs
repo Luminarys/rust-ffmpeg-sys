@@ -11502,464 +11502,466 @@ extern "C" {
         flags: ::std::os::raw::c_int,
     ) -> ::std::os::raw::c_int;
 }
-pub const AVCodecID_AV_CODEC_ID_NONE: AVCodecID = 0;
-pub const AVCodecID_AV_CODEC_ID_MPEG1VIDEO: AVCodecID = 1;
-pub const AVCodecID_AV_CODEC_ID_MPEG2VIDEO: AVCodecID = 2;
-pub const AVCodecID_AV_CODEC_ID_H261: AVCodecID = 3;
-pub const AVCodecID_AV_CODEC_ID_H263: AVCodecID = 4;
-pub const AVCodecID_AV_CODEC_ID_RV10: AVCodecID = 5;
-pub const AVCodecID_AV_CODEC_ID_RV20: AVCodecID = 6;
-pub const AVCodecID_AV_CODEC_ID_MJPEG: AVCodecID = 7;
-pub const AVCodecID_AV_CODEC_ID_MJPEGB: AVCodecID = 8;
-pub const AVCodecID_AV_CODEC_ID_LJPEG: AVCodecID = 9;
-pub const AVCodecID_AV_CODEC_ID_SP5X: AVCodecID = 10;
-pub const AVCodecID_AV_CODEC_ID_JPEGLS: AVCodecID = 11;
-pub const AVCodecID_AV_CODEC_ID_MPEG4: AVCodecID = 12;
-pub const AVCodecID_AV_CODEC_ID_RAWVIDEO: AVCodecID = 13;
-pub const AVCodecID_AV_CODEC_ID_MSMPEG4V1: AVCodecID = 14;
-pub const AVCodecID_AV_CODEC_ID_MSMPEG4V2: AVCodecID = 15;
-pub const AVCodecID_AV_CODEC_ID_MSMPEG4V3: AVCodecID = 16;
-pub const AVCodecID_AV_CODEC_ID_WMV1: AVCodecID = 17;
-pub const AVCodecID_AV_CODEC_ID_WMV2: AVCodecID = 18;
-pub const AVCodecID_AV_CODEC_ID_H263P: AVCodecID = 19;
-pub const AVCodecID_AV_CODEC_ID_H263I: AVCodecID = 20;
-pub const AVCodecID_AV_CODEC_ID_FLV1: AVCodecID = 21;
-pub const AVCodecID_AV_CODEC_ID_SVQ1: AVCodecID = 22;
-pub const AVCodecID_AV_CODEC_ID_SVQ3: AVCodecID = 23;
-pub const AVCodecID_AV_CODEC_ID_DVVIDEO: AVCodecID = 24;
-pub const AVCodecID_AV_CODEC_ID_HUFFYUV: AVCodecID = 25;
-pub const AVCodecID_AV_CODEC_ID_CYUV: AVCodecID = 26;
-pub const AVCodecID_AV_CODEC_ID_H264: AVCodecID = 27;
-pub const AVCodecID_AV_CODEC_ID_INDEO3: AVCodecID = 28;
-pub const AVCodecID_AV_CODEC_ID_VP3: AVCodecID = 29;
-pub const AVCodecID_AV_CODEC_ID_THEORA: AVCodecID = 30;
-pub const AVCodecID_AV_CODEC_ID_ASV1: AVCodecID = 31;
-pub const AVCodecID_AV_CODEC_ID_ASV2: AVCodecID = 32;
-pub const AVCodecID_AV_CODEC_ID_FFV1: AVCodecID = 33;
-pub const AVCodecID_AV_CODEC_ID_4XM: AVCodecID = 34;
-pub const AVCodecID_AV_CODEC_ID_VCR1: AVCodecID = 35;
-pub const AVCodecID_AV_CODEC_ID_CLJR: AVCodecID = 36;
-pub const AVCodecID_AV_CODEC_ID_MDEC: AVCodecID = 37;
-pub const AVCodecID_AV_CODEC_ID_ROQ: AVCodecID = 38;
-pub const AVCodecID_AV_CODEC_ID_INTERPLAY_VIDEO: AVCodecID = 39;
-pub const AVCodecID_AV_CODEC_ID_XAN_WC3: AVCodecID = 40;
-pub const AVCodecID_AV_CODEC_ID_XAN_WC4: AVCodecID = 41;
-pub const AVCodecID_AV_CODEC_ID_RPZA: AVCodecID = 42;
-pub const AVCodecID_AV_CODEC_ID_CINEPAK: AVCodecID = 43;
-pub const AVCodecID_AV_CODEC_ID_WS_VQA: AVCodecID = 44;
-pub const AVCodecID_AV_CODEC_ID_MSRLE: AVCodecID = 45;
-pub const AVCodecID_AV_CODEC_ID_MSVIDEO1: AVCodecID = 46;
-pub const AVCodecID_AV_CODEC_ID_IDCIN: AVCodecID = 47;
-pub const AVCodecID_AV_CODEC_ID_8BPS: AVCodecID = 48;
-pub const AVCodecID_AV_CODEC_ID_SMC: AVCodecID = 49;
-pub const AVCodecID_AV_CODEC_ID_FLIC: AVCodecID = 50;
-pub const AVCodecID_AV_CODEC_ID_TRUEMOTION1: AVCodecID = 51;
-pub const AVCodecID_AV_CODEC_ID_VMDVIDEO: AVCodecID = 52;
-pub const AVCodecID_AV_CODEC_ID_MSZH: AVCodecID = 53;
-pub const AVCodecID_AV_CODEC_ID_ZLIB: AVCodecID = 54;
-pub const AVCodecID_AV_CODEC_ID_QTRLE: AVCodecID = 55;
-pub const AVCodecID_AV_CODEC_ID_TSCC: AVCodecID = 56;
-pub const AVCodecID_AV_CODEC_ID_ULTI: AVCodecID = 57;
-pub const AVCodecID_AV_CODEC_ID_QDRAW: AVCodecID = 58;
-pub const AVCodecID_AV_CODEC_ID_VIXL: AVCodecID = 59;
-pub const AVCodecID_AV_CODEC_ID_QPEG: AVCodecID = 60;
-pub const AVCodecID_AV_CODEC_ID_PNG: AVCodecID = 61;
-pub const AVCodecID_AV_CODEC_ID_PPM: AVCodecID = 62;
-pub const AVCodecID_AV_CODEC_ID_PBM: AVCodecID = 63;
-pub const AVCodecID_AV_CODEC_ID_PGM: AVCodecID = 64;
-pub const AVCodecID_AV_CODEC_ID_PGMYUV: AVCodecID = 65;
-pub const AVCodecID_AV_CODEC_ID_PAM: AVCodecID = 66;
-pub const AVCodecID_AV_CODEC_ID_FFVHUFF: AVCodecID = 67;
-pub const AVCodecID_AV_CODEC_ID_RV30: AVCodecID = 68;
-pub const AVCodecID_AV_CODEC_ID_RV40: AVCodecID = 69;
-pub const AVCodecID_AV_CODEC_ID_VC1: AVCodecID = 70;
-pub const AVCodecID_AV_CODEC_ID_WMV3: AVCodecID = 71;
-pub const AVCodecID_AV_CODEC_ID_LOCO: AVCodecID = 72;
-pub const AVCodecID_AV_CODEC_ID_WNV1: AVCodecID = 73;
-pub const AVCodecID_AV_CODEC_ID_AASC: AVCodecID = 74;
-pub const AVCodecID_AV_CODEC_ID_INDEO2: AVCodecID = 75;
-pub const AVCodecID_AV_CODEC_ID_FRAPS: AVCodecID = 76;
-pub const AVCodecID_AV_CODEC_ID_TRUEMOTION2: AVCodecID = 77;
-pub const AVCodecID_AV_CODEC_ID_BMP: AVCodecID = 78;
-pub const AVCodecID_AV_CODEC_ID_CSCD: AVCodecID = 79;
-pub const AVCodecID_AV_CODEC_ID_MMVIDEO: AVCodecID = 80;
-pub const AVCodecID_AV_CODEC_ID_ZMBV: AVCodecID = 81;
-pub const AVCodecID_AV_CODEC_ID_AVS: AVCodecID = 82;
-pub const AVCodecID_AV_CODEC_ID_SMACKVIDEO: AVCodecID = 83;
-pub const AVCodecID_AV_CODEC_ID_NUV: AVCodecID = 84;
-pub const AVCodecID_AV_CODEC_ID_KMVC: AVCodecID = 85;
-pub const AVCodecID_AV_CODEC_ID_FLASHSV: AVCodecID = 86;
-pub const AVCodecID_AV_CODEC_ID_CAVS: AVCodecID = 87;
-pub const AVCodecID_AV_CODEC_ID_JPEG2000: AVCodecID = 88;
-pub const AVCodecID_AV_CODEC_ID_VMNC: AVCodecID = 89;
-pub const AVCodecID_AV_CODEC_ID_VP5: AVCodecID = 90;
-pub const AVCodecID_AV_CODEC_ID_VP6: AVCodecID = 91;
-pub const AVCodecID_AV_CODEC_ID_VP6F: AVCodecID = 92;
-pub const AVCodecID_AV_CODEC_ID_TARGA: AVCodecID = 93;
-pub const AVCodecID_AV_CODEC_ID_DSICINVIDEO: AVCodecID = 94;
-pub const AVCodecID_AV_CODEC_ID_TIERTEXSEQVIDEO: AVCodecID = 95;
-pub const AVCodecID_AV_CODEC_ID_TIFF: AVCodecID = 96;
-pub const AVCodecID_AV_CODEC_ID_GIF: AVCodecID = 97;
-pub const AVCodecID_AV_CODEC_ID_DXA: AVCodecID = 98;
-pub const AVCodecID_AV_CODEC_ID_DNXHD: AVCodecID = 99;
-pub const AVCodecID_AV_CODEC_ID_THP: AVCodecID = 100;
-pub const AVCodecID_AV_CODEC_ID_SGI: AVCodecID = 101;
-pub const AVCodecID_AV_CODEC_ID_C93: AVCodecID = 102;
-pub const AVCodecID_AV_CODEC_ID_BETHSOFTVID: AVCodecID = 103;
-pub const AVCodecID_AV_CODEC_ID_PTX: AVCodecID = 104;
-pub const AVCodecID_AV_CODEC_ID_TXD: AVCodecID = 105;
-pub const AVCodecID_AV_CODEC_ID_VP6A: AVCodecID = 106;
-pub const AVCodecID_AV_CODEC_ID_AMV: AVCodecID = 107;
-pub const AVCodecID_AV_CODEC_ID_VB: AVCodecID = 108;
-pub const AVCodecID_AV_CODEC_ID_PCX: AVCodecID = 109;
-pub const AVCodecID_AV_CODEC_ID_SUNRAST: AVCodecID = 110;
-pub const AVCodecID_AV_CODEC_ID_INDEO4: AVCodecID = 111;
-pub const AVCodecID_AV_CODEC_ID_INDEO5: AVCodecID = 112;
-pub const AVCodecID_AV_CODEC_ID_MIMIC: AVCodecID = 113;
-pub const AVCodecID_AV_CODEC_ID_RL2: AVCodecID = 114;
-pub const AVCodecID_AV_CODEC_ID_ESCAPE124: AVCodecID = 115;
-pub const AVCodecID_AV_CODEC_ID_DIRAC: AVCodecID = 116;
-pub const AVCodecID_AV_CODEC_ID_BFI: AVCodecID = 117;
-pub const AVCodecID_AV_CODEC_ID_CMV: AVCodecID = 118;
-pub const AVCodecID_AV_CODEC_ID_MOTIONPIXELS: AVCodecID = 119;
-pub const AVCodecID_AV_CODEC_ID_TGV: AVCodecID = 120;
-pub const AVCodecID_AV_CODEC_ID_TGQ: AVCodecID = 121;
-pub const AVCodecID_AV_CODEC_ID_TQI: AVCodecID = 122;
-pub const AVCodecID_AV_CODEC_ID_AURA: AVCodecID = 123;
-pub const AVCodecID_AV_CODEC_ID_AURA2: AVCodecID = 124;
-pub const AVCodecID_AV_CODEC_ID_V210X: AVCodecID = 125;
-pub const AVCodecID_AV_CODEC_ID_TMV: AVCodecID = 126;
-pub const AVCodecID_AV_CODEC_ID_V210: AVCodecID = 127;
-pub const AVCodecID_AV_CODEC_ID_DPX: AVCodecID = 128;
-pub const AVCodecID_AV_CODEC_ID_MAD: AVCodecID = 129;
-pub const AVCodecID_AV_CODEC_ID_FRWU: AVCodecID = 130;
-pub const AVCodecID_AV_CODEC_ID_FLASHSV2: AVCodecID = 131;
-pub const AVCodecID_AV_CODEC_ID_CDGRAPHICS: AVCodecID = 132;
-pub const AVCodecID_AV_CODEC_ID_R210: AVCodecID = 133;
-pub const AVCodecID_AV_CODEC_ID_ANM: AVCodecID = 134;
-pub const AVCodecID_AV_CODEC_ID_BINKVIDEO: AVCodecID = 135;
-pub const AVCodecID_AV_CODEC_ID_IFF_ILBM: AVCodecID = 136;
-pub const AVCodecID_AV_CODEC_ID_KGV1: AVCodecID = 137;
-pub const AVCodecID_AV_CODEC_ID_YOP: AVCodecID = 138;
-pub const AVCodecID_AV_CODEC_ID_VP8: AVCodecID = 139;
-pub const AVCodecID_AV_CODEC_ID_PICTOR: AVCodecID = 140;
-pub const AVCodecID_AV_CODEC_ID_ANSI: AVCodecID = 141;
-pub const AVCodecID_AV_CODEC_ID_A64_MULTI: AVCodecID = 142;
-pub const AVCodecID_AV_CODEC_ID_A64_MULTI5: AVCodecID = 143;
-pub const AVCodecID_AV_CODEC_ID_R10K: AVCodecID = 144;
-pub const AVCodecID_AV_CODEC_ID_MXPEG: AVCodecID = 145;
-pub const AVCodecID_AV_CODEC_ID_LAGARITH: AVCodecID = 146;
-pub const AVCodecID_AV_CODEC_ID_PRORES: AVCodecID = 147;
-pub const AVCodecID_AV_CODEC_ID_JV: AVCodecID = 148;
-pub const AVCodecID_AV_CODEC_ID_DFA: AVCodecID = 149;
-pub const AVCodecID_AV_CODEC_ID_WMV3IMAGE: AVCodecID = 150;
-pub const AVCodecID_AV_CODEC_ID_VC1IMAGE: AVCodecID = 151;
-pub const AVCodecID_AV_CODEC_ID_UTVIDEO: AVCodecID = 152;
-pub const AVCodecID_AV_CODEC_ID_BMV_VIDEO: AVCodecID = 153;
-pub const AVCodecID_AV_CODEC_ID_VBLE: AVCodecID = 154;
-pub const AVCodecID_AV_CODEC_ID_DXTORY: AVCodecID = 155;
-pub const AVCodecID_AV_CODEC_ID_V410: AVCodecID = 156;
-pub const AVCodecID_AV_CODEC_ID_XWD: AVCodecID = 157;
-pub const AVCodecID_AV_CODEC_ID_CDXL: AVCodecID = 158;
-pub const AVCodecID_AV_CODEC_ID_XBM: AVCodecID = 159;
-pub const AVCodecID_AV_CODEC_ID_ZEROCODEC: AVCodecID = 160;
-pub const AVCodecID_AV_CODEC_ID_MSS1: AVCodecID = 161;
-pub const AVCodecID_AV_CODEC_ID_MSA1: AVCodecID = 162;
-pub const AVCodecID_AV_CODEC_ID_TSCC2: AVCodecID = 163;
-pub const AVCodecID_AV_CODEC_ID_MTS2: AVCodecID = 164;
-pub const AVCodecID_AV_CODEC_ID_CLLC: AVCodecID = 165;
-pub const AVCodecID_AV_CODEC_ID_MSS2: AVCodecID = 166;
-pub const AVCodecID_AV_CODEC_ID_VP9: AVCodecID = 167;
-pub const AVCodecID_AV_CODEC_ID_AIC: AVCodecID = 168;
-pub const AVCodecID_AV_CODEC_ID_ESCAPE130: AVCodecID = 169;
-pub const AVCodecID_AV_CODEC_ID_G2M: AVCodecID = 170;
-pub const AVCodecID_AV_CODEC_ID_WEBP: AVCodecID = 171;
-pub const AVCodecID_AV_CODEC_ID_HNM4_VIDEO: AVCodecID = 172;
-pub const AVCodecID_AV_CODEC_ID_HEVC: AVCodecID = 173;
-pub const AVCodecID_AV_CODEC_ID_FIC: AVCodecID = 174;
-pub const AVCodecID_AV_CODEC_ID_ALIAS_PIX: AVCodecID = 175;
-pub const AVCodecID_AV_CODEC_ID_BRENDER_PIX: AVCodecID = 176;
-pub const AVCodecID_AV_CODEC_ID_PAF_VIDEO: AVCodecID = 177;
-pub const AVCodecID_AV_CODEC_ID_EXR: AVCodecID = 178;
-pub const AVCodecID_AV_CODEC_ID_VP7: AVCodecID = 179;
-pub const AVCodecID_AV_CODEC_ID_SANM: AVCodecID = 180;
-pub const AVCodecID_AV_CODEC_ID_SGIRLE: AVCodecID = 181;
-pub const AVCodecID_AV_CODEC_ID_MVC1: AVCodecID = 182;
-pub const AVCodecID_AV_CODEC_ID_MVC2: AVCodecID = 183;
-pub const AVCodecID_AV_CODEC_ID_HQX: AVCodecID = 184;
-pub const AVCodecID_AV_CODEC_ID_TDSC: AVCodecID = 185;
-pub const AVCodecID_AV_CODEC_ID_HQ_HQA: AVCodecID = 186;
-pub const AVCodecID_AV_CODEC_ID_HAP: AVCodecID = 187;
-pub const AVCodecID_AV_CODEC_ID_DDS: AVCodecID = 188;
-pub const AVCodecID_AV_CODEC_ID_DXV: AVCodecID = 189;
-pub const AVCodecID_AV_CODEC_ID_SCREENPRESSO: AVCodecID = 190;
-pub const AVCodecID_AV_CODEC_ID_RSCC: AVCodecID = 191;
-pub const AVCodecID_AV_CODEC_ID_AVS2: AVCodecID = 192;
-pub const AVCodecID_AV_CODEC_ID_Y41P: AVCodecID = 32768;
-pub const AVCodecID_AV_CODEC_ID_AVRP: AVCodecID = 32769;
-pub const AVCodecID_AV_CODEC_ID_012V: AVCodecID = 32770;
-pub const AVCodecID_AV_CODEC_ID_AVUI: AVCodecID = 32771;
-pub const AVCodecID_AV_CODEC_ID_AYUV: AVCodecID = 32772;
-pub const AVCodecID_AV_CODEC_ID_TARGA_Y216: AVCodecID = 32773;
-pub const AVCodecID_AV_CODEC_ID_V308: AVCodecID = 32774;
-pub const AVCodecID_AV_CODEC_ID_V408: AVCodecID = 32775;
-pub const AVCodecID_AV_CODEC_ID_YUV4: AVCodecID = 32776;
-pub const AVCodecID_AV_CODEC_ID_AVRN: AVCodecID = 32777;
-pub const AVCodecID_AV_CODEC_ID_CPIA: AVCodecID = 32778;
-pub const AVCodecID_AV_CODEC_ID_XFACE: AVCodecID = 32779;
-pub const AVCodecID_AV_CODEC_ID_SNOW: AVCodecID = 32780;
-pub const AVCodecID_AV_CODEC_ID_SMVJPEG: AVCodecID = 32781;
-pub const AVCodecID_AV_CODEC_ID_APNG: AVCodecID = 32782;
-pub const AVCodecID_AV_CODEC_ID_DAALA: AVCodecID = 32783;
-pub const AVCodecID_AV_CODEC_ID_CFHD: AVCodecID = 32784;
-pub const AVCodecID_AV_CODEC_ID_TRUEMOTION2RT: AVCodecID = 32785;
-pub const AVCodecID_AV_CODEC_ID_M101: AVCodecID = 32786;
-pub const AVCodecID_AV_CODEC_ID_MAGICYUV: AVCodecID = 32787;
-pub const AVCodecID_AV_CODEC_ID_SHEERVIDEO: AVCodecID = 32788;
-pub const AVCodecID_AV_CODEC_ID_YLC: AVCodecID = 32789;
-pub const AVCodecID_AV_CODEC_ID_PSD: AVCodecID = 32790;
-pub const AVCodecID_AV_CODEC_ID_PIXLET: AVCodecID = 32791;
-pub const AVCodecID_AV_CODEC_ID_SPEEDHQ: AVCodecID = 32792;
-pub const AVCodecID_AV_CODEC_ID_FMVC: AVCodecID = 32793;
-pub const AVCodecID_AV_CODEC_ID_SCPR: AVCodecID = 32794;
-pub const AVCodecID_AV_CODEC_ID_CLEARVIDEO: AVCodecID = 32795;
-pub const AVCodecID_AV_CODEC_ID_XPM: AVCodecID = 32796;
-pub const AVCodecID_AV_CODEC_ID_AV1: AVCodecID = 32797;
-pub const AVCodecID_AV_CODEC_ID_BITPACKED: AVCodecID = 32798;
-pub const AVCodecID_AV_CODEC_ID_MSCC: AVCodecID = 32799;
-pub const AVCodecID_AV_CODEC_ID_SRGC: AVCodecID = 32800;
-pub const AVCodecID_AV_CODEC_ID_SVG: AVCodecID = 32801;
-pub const AVCodecID_AV_CODEC_ID_GDV: AVCodecID = 32802;
-pub const AVCodecID_AV_CODEC_ID_FITS: AVCodecID = 32803;
-pub const AVCodecID_AV_CODEC_ID_IMM4: AVCodecID = 32804;
-pub const AVCodecID_AV_CODEC_ID_PROSUMER: AVCodecID = 32805;
-pub const AVCodecID_AV_CODEC_ID_MWSC: AVCodecID = 32806;
-pub const AVCodecID_AV_CODEC_ID_WCMV: AVCodecID = 32807;
-pub const AVCodecID_AV_CODEC_ID_RASC: AVCodecID = 32808;
-pub const AVCodecID_AV_CODEC_ID_FIRST_AUDIO: AVCodecID = 65536;
-pub const AVCodecID_AV_CODEC_ID_PCM_S16LE: AVCodecID = 65536;
-pub const AVCodecID_AV_CODEC_ID_PCM_S16BE: AVCodecID = 65537;
-pub const AVCodecID_AV_CODEC_ID_PCM_U16LE: AVCodecID = 65538;
-pub const AVCodecID_AV_CODEC_ID_PCM_U16BE: AVCodecID = 65539;
-pub const AVCodecID_AV_CODEC_ID_PCM_S8: AVCodecID = 65540;
-pub const AVCodecID_AV_CODEC_ID_PCM_U8: AVCodecID = 65541;
-pub const AVCodecID_AV_CODEC_ID_PCM_MULAW: AVCodecID = 65542;
-pub const AVCodecID_AV_CODEC_ID_PCM_ALAW: AVCodecID = 65543;
-pub const AVCodecID_AV_CODEC_ID_PCM_S32LE: AVCodecID = 65544;
-pub const AVCodecID_AV_CODEC_ID_PCM_S32BE: AVCodecID = 65545;
-pub const AVCodecID_AV_CODEC_ID_PCM_U32LE: AVCodecID = 65546;
-pub const AVCodecID_AV_CODEC_ID_PCM_U32BE: AVCodecID = 65547;
-pub const AVCodecID_AV_CODEC_ID_PCM_S24LE: AVCodecID = 65548;
-pub const AVCodecID_AV_CODEC_ID_PCM_S24BE: AVCodecID = 65549;
-pub const AVCodecID_AV_CODEC_ID_PCM_U24LE: AVCodecID = 65550;
-pub const AVCodecID_AV_CODEC_ID_PCM_U24BE: AVCodecID = 65551;
-pub const AVCodecID_AV_CODEC_ID_PCM_S24DAUD: AVCodecID = 65552;
-pub const AVCodecID_AV_CODEC_ID_PCM_ZORK: AVCodecID = 65553;
-pub const AVCodecID_AV_CODEC_ID_PCM_S16LE_PLANAR: AVCodecID = 65554;
-pub const AVCodecID_AV_CODEC_ID_PCM_DVD: AVCodecID = 65555;
-pub const AVCodecID_AV_CODEC_ID_PCM_F32BE: AVCodecID = 65556;
-pub const AVCodecID_AV_CODEC_ID_PCM_F32LE: AVCodecID = 65557;
-pub const AVCodecID_AV_CODEC_ID_PCM_F64BE: AVCodecID = 65558;
-pub const AVCodecID_AV_CODEC_ID_PCM_F64LE: AVCodecID = 65559;
-pub const AVCodecID_AV_CODEC_ID_PCM_BLURAY: AVCodecID = 65560;
-pub const AVCodecID_AV_CODEC_ID_PCM_LXF: AVCodecID = 65561;
-pub const AVCodecID_AV_CODEC_ID_S302M: AVCodecID = 65562;
-pub const AVCodecID_AV_CODEC_ID_PCM_S8_PLANAR: AVCodecID = 65563;
-pub const AVCodecID_AV_CODEC_ID_PCM_S24LE_PLANAR: AVCodecID = 65564;
-pub const AVCodecID_AV_CODEC_ID_PCM_S32LE_PLANAR: AVCodecID = 65565;
-pub const AVCodecID_AV_CODEC_ID_PCM_S16BE_PLANAR: AVCodecID = 65566;
-pub const AVCodecID_AV_CODEC_ID_PCM_S64LE: AVCodecID = 67584;
-pub const AVCodecID_AV_CODEC_ID_PCM_S64BE: AVCodecID = 67585;
-pub const AVCodecID_AV_CODEC_ID_PCM_F16LE: AVCodecID = 67586;
-pub const AVCodecID_AV_CODEC_ID_PCM_F24LE: AVCodecID = 67587;
-pub const AVCodecID_AV_CODEC_ID_PCM_VIDC: AVCodecID = 67588;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_IMA_QT: AVCodecID = 69632;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_IMA_WAV: AVCodecID = 69633;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_IMA_DK3: AVCodecID = 69634;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_IMA_DK4: AVCodecID = 69635;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_IMA_WS: AVCodecID = 69636;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_IMA_SMJPEG: AVCodecID = 69637;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_MS: AVCodecID = 69638;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_4XM: AVCodecID = 69639;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_XA: AVCodecID = 69640;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_ADX: AVCodecID = 69641;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_EA: AVCodecID = 69642;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_G726: AVCodecID = 69643;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_CT: AVCodecID = 69644;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_SWF: AVCodecID = 69645;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_YAMAHA: AVCodecID = 69646;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_SBPRO_4: AVCodecID = 69647;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_SBPRO_3: AVCodecID = 69648;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_SBPRO_2: AVCodecID = 69649;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_THP: AVCodecID = 69650;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_IMA_AMV: AVCodecID = 69651;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_EA_R1: AVCodecID = 69652;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_EA_R3: AVCodecID = 69653;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_EA_R2: AVCodecID = 69654;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_IMA_EA_SEAD: AVCodecID = 69655;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_IMA_EA_EACS: AVCodecID = 69656;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_EA_XAS: AVCodecID = 69657;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_EA_MAXIS_XA: AVCodecID = 69658;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_IMA_ISS: AVCodecID = 69659;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_G722: AVCodecID = 69660;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_IMA_APC: AVCodecID = 69661;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_VIMA: AVCodecID = 69662;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_AFC: AVCodecID = 71680;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_IMA_OKI: AVCodecID = 71681;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_DTK: AVCodecID = 71682;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_IMA_RAD: AVCodecID = 71683;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_G726LE: AVCodecID = 71684;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_THP_LE: AVCodecID = 71685;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_PSX: AVCodecID = 71686;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_AICA: AVCodecID = 71687;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_IMA_DAT4: AVCodecID = 71688;
-pub const AVCodecID_AV_CODEC_ID_ADPCM_MTAF: AVCodecID = 71689;
-pub const AVCodecID_AV_CODEC_ID_AMR_NB: AVCodecID = 73728;
-pub const AVCodecID_AV_CODEC_ID_AMR_WB: AVCodecID = 73729;
-pub const AVCodecID_AV_CODEC_ID_RA_144: AVCodecID = 77824;
-pub const AVCodecID_AV_CODEC_ID_RA_288: AVCodecID = 77825;
-pub const AVCodecID_AV_CODEC_ID_ROQ_DPCM: AVCodecID = 81920;
-pub const AVCodecID_AV_CODEC_ID_INTERPLAY_DPCM: AVCodecID = 81921;
-pub const AVCodecID_AV_CODEC_ID_XAN_DPCM: AVCodecID = 81922;
-pub const AVCodecID_AV_CODEC_ID_SOL_DPCM: AVCodecID = 81923;
-pub const AVCodecID_AV_CODEC_ID_SDX2_DPCM: AVCodecID = 83968;
-pub const AVCodecID_AV_CODEC_ID_GREMLIN_DPCM: AVCodecID = 83969;
-pub const AVCodecID_AV_CODEC_ID_MP2: AVCodecID = 86016;
-pub const AVCodecID_AV_CODEC_ID_MP3: AVCodecID = 86017;
-pub const AVCodecID_AV_CODEC_ID_AAC: AVCodecID = 86018;
-pub const AVCodecID_AV_CODEC_ID_AC3: AVCodecID = 86019;
-pub const AVCodecID_AV_CODEC_ID_DTS: AVCodecID = 86020;
-pub const AVCodecID_AV_CODEC_ID_VORBIS: AVCodecID = 86021;
-pub const AVCodecID_AV_CODEC_ID_DVAUDIO: AVCodecID = 86022;
-pub const AVCodecID_AV_CODEC_ID_WMAV1: AVCodecID = 86023;
-pub const AVCodecID_AV_CODEC_ID_WMAV2: AVCodecID = 86024;
-pub const AVCodecID_AV_CODEC_ID_MACE3: AVCodecID = 86025;
-pub const AVCodecID_AV_CODEC_ID_MACE6: AVCodecID = 86026;
-pub const AVCodecID_AV_CODEC_ID_VMDAUDIO: AVCodecID = 86027;
-pub const AVCodecID_AV_CODEC_ID_FLAC: AVCodecID = 86028;
-pub const AVCodecID_AV_CODEC_ID_MP3ADU: AVCodecID = 86029;
-pub const AVCodecID_AV_CODEC_ID_MP3ON4: AVCodecID = 86030;
-pub const AVCodecID_AV_CODEC_ID_SHORTEN: AVCodecID = 86031;
-pub const AVCodecID_AV_CODEC_ID_ALAC: AVCodecID = 86032;
-pub const AVCodecID_AV_CODEC_ID_WESTWOOD_SND1: AVCodecID = 86033;
-pub const AVCodecID_AV_CODEC_ID_GSM: AVCodecID = 86034;
-pub const AVCodecID_AV_CODEC_ID_QDM2: AVCodecID = 86035;
-pub const AVCodecID_AV_CODEC_ID_COOK: AVCodecID = 86036;
-pub const AVCodecID_AV_CODEC_ID_TRUESPEECH: AVCodecID = 86037;
-pub const AVCodecID_AV_CODEC_ID_TTA: AVCodecID = 86038;
-pub const AVCodecID_AV_CODEC_ID_SMACKAUDIO: AVCodecID = 86039;
-pub const AVCodecID_AV_CODEC_ID_QCELP: AVCodecID = 86040;
-pub const AVCodecID_AV_CODEC_ID_WAVPACK: AVCodecID = 86041;
-pub const AVCodecID_AV_CODEC_ID_DSICINAUDIO: AVCodecID = 86042;
-pub const AVCodecID_AV_CODEC_ID_IMC: AVCodecID = 86043;
-pub const AVCodecID_AV_CODEC_ID_MUSEPACK7: AVCodecID = 86044;
-pub const AVCodecID_AV_CODEC_ID_MLP: AVCodecID = 86045;
-pub const AVCodecID_AV_CODEC_ID_GSM_MS: AVCodecID = 86046;
-pub const AVCodecID_AV_CODEC_ID_ATRAC3: AVCodecID = 86047;
-pub const AVCodecID_AV_CODEC_ID_APE: AVCodecID = 86048;
-pub const AVCodecID_AV_CODEC_ID_NELLYMOSER: AVCodecID = 86049;
-pub const AVCodecID_AV_CODEC_ID_MUSEPACK8: AVCodecID = 86050;
-pub const AVCodecID_AV_CODEC_ID_SPEEX: AVCodecID = 86051;
-pub const AVCodecID_AV_CODEC_ID_WMAVOICE: AVCodecID = 86052;
-pub const AVCodecID_AV_CODEC_ID_WMAPRO: AVCodecID = 86053;
-pub const AVCodecID_AV_CODEC_ID_WMALOSSLESS: AVCodecID = 86054;
-pub const AVCodecID_AV_CODEC_ID_ATRAC3P: AVCodecID = 86055;
-pub const AVCodecID_AV_CODEC_ID_EAC3: AVCodecID = 86056;
-pub const AVCodecID_AV_CODEC_ID_SIPR: AVCodecID = 86057;
-pub const AVCodecID_AV_CODEC_ID_MP1: AVCodecID = 86058;
-pub const AVCodecID_AV_CODEC_ID_TWINVQ: AVCodecID = 86059;
-pub const AVCodecID_AV_CODEC_ID_TRUEHD: AVCodecID = 86060;
-pub const AVCodecID_AV_CODEC_ID_MP4ALS: AVCodecID = 86061;
-pub const AVCodecID_AV_CODEC_ID_ATRAC1: AVCodecID = 86062;
-pub const AVCodecID_AV_CODEC_ID_BINKAUDIO_RDFT: AVCodecID = 86063;
-pub const AVCodecID_AV_CODEC_ID_BINKAUDIO_DCT: AVCodecID = 86064;
-pub const AVCodecID_AV_CODEC_ID_AAC_LATM: AVCodecID = 86065;
-pub const AVCodecID_AV_CODEC_ID_QDMC: AVCodecID = 86066;
-pub const AVCodecID_AV_CODEC_ID_CELT: AVCodecID = 86067;
-pub const AVCodecID_AV_CODEC_ID_G723_1: AVCodecID = 86068;
-pub const AVCodecID_AV_CODEC_ID_G729: AVCodecID = 86069;
-pub const AVCodecID_AV_CODEC_ID_8SVX_EXP: AVCodecID = 86070;
-pub const AVCodecID_AV_CODEC_ID_8SVX_FIB: AVCodecID = 86071;
-pub const AVCodecID_AV_CODEC_ID_BMV_AUDIO: AVCodecID = 86072;
-pub const AVCodecID_AV_CODEC_ID_RALF: AVCodecID = 86073;
-pub const AVCodecID_AV_CODEC_ID_IAC: AVCodecID = 86074;
-pub const AVCodecID_AV_CODEC_ID_ILBC: AVCodecID = 86075;
-pub const AVCodecID_AV_CODEC_ID_OPUS: AVCodecID = 86076;
-pub const AVCodecID_AV_CODEC_ID_COMFORT_NOISE: AVCodecID = 86077;
-pub const AVCodecID_AV_CODEC_ID_TAK: AVCodecID = 86078;
-pub const AVCodecID_AV_CODEC_ID_METASOUND: AVCodecID = 86079;
-pub const AVCodecID_AV_CODEC_ID_PAF_AUDIO: AVCodecID = 86080;
-pub const AVCodecID_AV_CODEC_ID_ON2AVC: AVCodecID = 86081;
-pub const AVCodecID_AV_CODEC_ID_DSS_SP: AVCodecID = 86082;
-pub const AVCodecID_AV_CODEC_ID_CODEC2: AVCodecID = 86083;
-pub const AVCodecID_AV_CODEC_ID_FFWAVESYNTH: AVCodecID = 88064;
-pub const AVCodecID_AV_CODEC_ID_SONIC: AVCodecID = 88065;
-pub const AVCodecID_AV_CODEC_ID_SONIC_LS: AVCodecID = 88066;
-pub const AVCodecID_AV_CODEC_ID_EVRC: AVCodecID = 88067;
-pub const AVCodecID_AV_CODEC_ID_SMV: AVCodecID = 88068;
-pub const AVCodecID_AV_CODEC_ID_DSD_LSBF: AVCodecID = 88069;
-pub const AVCodecID_AV_CODEC_ID_DSD_MSBF: AVCodecID = 88070;
-pub const AVCodecID_AV_CODEC_ID_DSD_LSBF_PLANAR: AVCodecID = 88071;
-pub const AVCodecID_AV_CODEC_ID_DSD_MSBF_PLANAR: AVCodecID = 88072;
-pub const AVCodecID_AV_CODEC_ID_4GV: AVCodecID = 88073;
-pub const AVCodecID_AV_CODEC_ID_INTERPLAY_ACM: AVCodecID = 88074;
-pub const AVCodecID_AV_CODEC_ID_XMA1: AVCodecID = 88075;
-pub const AVCodecID_AV_CODEC_ID_XMA2: AVCodecID = 88076;
-pub const AVCodecID_AV_CODEC_ID_DST: AVCodecID = 88077;
-pub const AVCodecID_AV_CODEC_ID_ATRAC3AL: AVCodecID = 88078;
-pub const AVCodecID_AV_CODEC_ID_ATRAC3PAL: AVCodecID = 88079;
-pub const AVCodecID_AV_CODEC_ID_DOLBY_E: AVCodecID = 88080;
-pub const AVCodecID_AV_CODEC_ID_APTX: AVCodecID = 88081;
-pub const AVCodecID_AV_CODEC_ID_APTX_HD: AVCodecID = 88082;
-pub const AVCodecID_AV_CODEC_ID_SBC: AVCodecID = 88083;
-pub const AVCodecID_AV_CODEC_ID_ATRAC9: AVCodecID = 88084;
-pub const AVCodecID_AV_CODEC_ID_FIRST_SUBTITLE: AVCodecID = 94208;
-pub const AVCodecID_AV_CODEC_ID_DVD_SUBTITLE: AVCodecID = 94208;
-pub const AVCodecID_AV_CODEC_ID_DVB_SUBTITLE: AVCodecID = 94209;
-pub const AVCodecID_AV_CODEC_ID_TEXT: AVCodecID = 94210;
-pub const AVCodecID_AV_CODEC_ID_XSUB: AVCodecID = 94211;
-pub const AVCodecID_AV_CODEC_ID_SSA: AVCodecID = 94212;
-pub const AVCodecID_AV_CODEC_ID_MOV_TEXT: AVCodecID = 94213;
-pub const AVCodecID_AV_CODEC_ID_HDMV_PGS_SUBTITLE: AVCodecID = 94214;
-pub const AVCodecID_AV_CODEC_ID_DVB_TELETEXT: AVCodecID = 94215;
-pub const AVCodecID_AV_CODEC_ID_SRT: AVCodecID = 94216;
-pub const AVCodecID_AV_CODEC_ID_MICRODVD: AVCodecID = 96256;
-pub const AVCodecID_AV_CODEC_ID_EIA_608: AVCodecID = 96257;
-pub const AVCodecID_AV_CODEC_ID_JACOSUB: AVCodecID = 96258;
-pub const AVCodecID_AV_CODEC_ID_SAMI: AVCodecID = 96259;
-pub const AVCodecID_AV_CODEC_ID_REALTEXT: AVCodecID = 96260;
-pub const AVCodecID_AV_CODEC_ID_STL: AVCodecID = 96261;
-pub const AVCodecID_AV_CODEC_ID_SUBVIEWER1: AVCodecID = 96262;
-pub const AVCodecID_AV_CODEC_ID_SUBVIEWER: AVCodecID = 96263;
-pub const AVCodecID_AV_CODEC_ID_SUBRIP: AVCodecID = 96264;
-pub const AVCodecID_AV_CODEC_ID_WEBVTT: AVCodecID = 96265;
-pub const AVCodecID_AV_CODEC_ID_MPL2: AVCodecID = 96266;
-pub const AVCodecID_AV_CODEC_ID_VPLAYER: AVCodecID = 96267;
-pub const AVCodecID_AV_CODEC_ID_PJS: AVCodecID = 96268;
-pub const AVCodecID_AV_CODEC_ID_ASS: AVCodecID = 96269;
-pub const AVCodecID_AV_CODEC_ID_HDMV_TEXT_SUBTITLE: AVCodecID = 96270;
-pub const AVCodecID_AV_CODEC_ID_TTML: AVCodecID = 96271;
-pub const AVCodecID_AV_CODEC_ID_FIRST_UNKNOWN: AVCodecID = 98304;
-pub const AVCodecID_AV_CODEC_ID_TTF: AVCodecID = 98304;
-pub const AVCodecID_AV_CODEC_ID_SCTE_35: AVCodecID = 98305;
-pub const AVCodecID_AV_CODEC_ID_BINTEXT: AVCodecID = 100352;
-pub const AVCodecID_AV_CODEC_ID_XBIN: AVCodecID = 100353;
-pub const AVCodecID_AV_CODEC_ID_IDF: AVCodecID = 100354;
-pub const AVCodecID_AV_CODEC_ID_OTF: AVCodecID = 100355;
-pub const AVCodecID_AV_CODEC_ID_SMPTE_KLV: AVCodecID = 100356;
-pub const AVCodecID_AV_CODEC_ID_DVD_NAV: AVCodecID = 100357;
-pub const AVCodecID_AV_CODEC_ID_TIMED_ID3: AVCodecID = 100358;
-pub const AVCodecID_AV_CODEC_ID_BIN_DATA: AVCodecID = 100359;
-pub const AVCodecID_AV_CODEC_ID_PROBE: AVCodecID = 102400;
-pub const AVCodecID_AV_CODEC_ID_MPEG2TS: AVCodecID = 131072;
-pub const AVCodecID_AV_CODEC_ID_MPEG4SYSTEMS: AVCodecID = 131073;
-pub const AVCodecID_AV_CODEC_ID_FFMETADATA: AVCodecID = 135168;
-pub const AVCodecID_AV_CODEC_ID_WRAPPED_AVFRAME: AVCodecID = 135169;
-pub type AVCodecID = u32;
+pub mod AVCodecID {
+    pub type Type = u32;
+    pub const AV_CODEC_ID_NONE: Type = 0;
+    pub const AV_CODEC_ID_MPEG1VIDEO: Type = 1;
+    pub const AV_CODEC_ID_MPEG2VIDEO: Type = 2;
+    pub const AV_CODEC_ID_H261: Type = 3;
+    pub const AV_CODEC_ID_H263: Type = 4;
+    pub const AV_CODEC_ID_RV10: Type = 5;
+    pub const AV_CODEC_ID_RV20: Type = 6;
+    pub const AV_CODEC_ID_MJPEG: Type = 7;
+    pub const AV_CODEC_ID_MJPEGB: Type = 8;
+    pub const AV_CODEC_ID_LJPEG: Type = 9;
+    pub const AV_CODEC_ID_SP5X: Type = 10;
+    pub const AV_CODEC_ID_JPEGLS: Type = 11;
+    pub const AV_CODEC_ID_MPEG4: Type = 12;
+    pub const AV_CODEC_ID_RAWVIDEO: Type = 13;
+    pub const AV_CODEC_ID_MSMPEG4V1: Type = 14;
+    pub const AV_CODEC_ID_MSMPEG4V2: Type = 15;
+    pub const AV_CODEC_ID_MSMPEG4V3: Type = 16;
+    pub const AV_CODEC_ID_WMV1: Type = 17;
+    pub const AV_CODEC_ID_WMV2: Type = 18;
+    pub const AV_CODEC_ID_H263P: Type = 19;
+    pub const AV_CODEC_ID_H263I: Type = 20;
+    pub const AV_CODEC_ID_FLV1: Type = 21;
+    pub const AV_CODEC_ID_SVQ1: Type = 22;
+    pub const AV_CODEC_ID_SVQ3: Type = 23;
+    pub const AV_CODEC_ID_DVVIDEO: Type = 24;
+    pub const AV_CODEC_ID_HUFFYUV: Type = 25;
+    pub const AV_CODEC_ID_CYUV: Type = 26;
+    pub const AV_CODEC_ID_H264: Type = 27;
+    pub const AV_CODEC_ID_INDEO3: Type = 28;
+    pub const AV_CODEC_ID_VP3: Type = 29;
+    pub const AV_CODEC_ID_THEORA: Type = 30;
+    pub const AV_CODEC_ID_ASV1: Type = 31;
+    pub const AV_CODEC_ID_ASV2: Type = 32;
+    pub const AV_CODEC_ID_FFV1: Type = 33;
+    pub const AV_CODEC_ID_4XM: Type = 34;
+    pub const AV_CODEC_ID_VCR1: Type = 35;
+    pub const AV_CODEC_ID_CLJR: Type = 36;
+    pub const AV_CODEC_ID_MDEC: Type = 37;
+    pub const AV_CODEC_ID_ROQ: Type = 38;
+    pub const AV_CODEC_ID_INTERPLAY_VIDEO: Type = 39;
+    pub const AV_CODEC_ID_XAN_WC3: Type = 40;
+    pub const AV_CODEC_ID_XAN_WC4: Type = 41;
+    pub const AV_CODEC_ID_RPZA: Type = 42;
+    pub const AV_CODEC_ID_CINEPAK: Type = 43;
+    pub const AV_CODEC_ID_WS_VQA: Type = 44;
+    pub const AV_CODEC_ID_MSRLE: Type = 45;
+    pub const AV_CODEC_ID_MSVIDEO1: Type = 46;
+    pub const AV_CODEC_ID_IDCIN: Type = 47;
+    pub const AV_CODEC_ID_8BPS: Type = 48;
+    pub const AV_CODEC_ID_SMC: Type = 49;
+    pub const AV_CODEC_ID_FLIC: Type = 50;
+    pub const AV_CODEC_ID_TRUEMOTION1: Type = 51;
+    pub const AV_CODEC_ID_VMDVIDEO: Type = 52;
+    pub const AV_CODEC_ID_MSZH: Type = 53;
+    pub const AV_CODEC_ID_ZLIB: Type = 54;
+    pub const AV_CODEC_ID_QTRLE: Type = 55;
+    pub const AV_CODEC_ID_TSCC: Type = 56;
+    pub const AV_CODEC_ID_ULTI: Type = 57;
+    pub const AV_CODEC_ID_QDRAW: Type = 58;
+    pub const AV_CODEC_ID_VIXL: Type = 59;
+    pub const AV_CODEC_ID_QPEG: Type = 60;
+    pub const AV_CODEC_ID_PNG: Type = 61;
+    pub const AV_CODEC_ID_PPM: Type = 62;
+    pub const AV_CODEC_ID_PBM: Type = 63;
+    pub const AV_CODEC_ID_PGM: Type = 64;
+    pub const AV_CODEC_ID_PGMYUV: Type = 65;
+    pub const AV_CODEC_ID_PAM: Type = 66;
+    pub const AV_CODEC_ID_FFVHUFF: Type = 67;
+    pub const AV_CODEC_ID_RV30: Type = 68;
+    pub const AV_CODEC_ID_RV40: Type = 69;
+    pub const AV_CODEC_ID_VC1: Type = 70;
+    pub const AV_CODEC_ID_WMV3: Type = 71;
+    pub const AV_CODEC_ID_LOCO: Type = 72;
+    pub const AV_CODEC_ID_WNV1: Type = 73;
+    pub const AV_CODEC_ID_AASC: Type = 74;
+    pub const AV_CODEC_ID_INDEO2: Type = 75;
+    pub const AV_CODEC_ID_FRAPS: Type = 76;
+    pub const AV_CODEC_ID_TRUEMOTION2: Type = 77;
+    pub const AV_CODEC_ID_BMP: Type = 78;
+    pub const AV_CODEC_ID_CSCD: Type = 79;
+    pub const AV_CODEC_ID_MMVIDEO: Type = 80;
+    pub const AV_CODEC_ID_ZMBV: Type = 81;
+    pub const AV_CODEC_ID_AVS: Type = 82;
+    pub const AV_CODEC_ID_SMACKVIDEO: Type = 83;
+    pub const AV_CODEC_ID_NUV: Type = 84;
+    pub const AV_CODEC_ID_KMVC: Type = 85;
+    pub const AV_CODEC_ID_FLASHSV: Type = 86;
+    pub const AV_CODEC_ID_CAVS: Type = 87;
+    pub const AV_CODEC_ID_JPEG2000: Type = 88;
+    pub const AV_CODEC_ID_VMNC: Type = 89;
+    pub const AV_CODEC_ID_VP5: Type = 90;
+    pub const AV_CODEC_ID_VP6: Type = 91;
+    pub const AV_CODEC_ID_VP6F: Type = 92;
+    pub const AV_CODEC_ID_TARGA: Type = 93;
+    pub const AV_CODEC_ID_DSICINVIDEO: Type = 94;
+    pub const AV_CODEC_ID_TIERTEXSEQVIDEO: Type = 95;
+    pub const AV_CODEC_ID_TIFF: Type = 96;
+    pub const AV_CODEC_ID_GIF: Type = 97;
+    pub const AV_CODEC_ID_DXA: Type = 98;
+    pub const AV_CODEC_ID_DNXHD: Type = 99;
+    pub const AV_CODEC_ID_THP: Type = 100;
+    pub const AV_CODEC_ID_SGI: Type = 101;
+    pub const AV_CODEC_ID_C93: Type = 102;
+    pub const AV_CODEC_ID_BETHSOFTVID: Type = 103;
+    pub const AV_CODEC_ID_PTX: Type = 104;
+    pub const AV_CODEC_ID_TXD: Type = 105;
+    pub const AV_CODEC_ID_VP6A: Type = 106;
+    pub const AV_CODEC_ID_AMV: Type = 107;
+    pub const AV_CODEC_ID_VB: Type = 108;
+    pub const AV_CODEC_ID_PCX: Type = 109;
+    pub const AV_CODEC_ID_SUNRAST: Type = 110;
+    pub const AV_CODEC_ID_INDEO4: Type = 111;
+    pub const AV_CODEC_ID_INDEO5: Type = 112;
+    pub const AV_CODEC_ID_MIMIC: Type = 113;
+    pub const AV_CODEC_ID_RL2: Type = 114;
+    pub const AV_CODEC_ID_ESCAPE124: Type = 115;
+    pub const AV_CODEC_ID_DIRAC: Type = 116;
+    pub const AV_CODEC_ID_BFI: Type = 117;
+    pub const AV_CODEC_ID_CMV: Type = 118;
+    pub const AV_CODEC_ID_MOTIONPIXELS: Type = 119;
+    pub const AV_CODEC_ID_TGV: Type = 120;
+    pub const AV_CODEC_ID_TGQ: Type = 121;
+    pub const AV_CODEC_ID_TQI: Type = 122;
+    pub const AV_CODEC_ID_AURA: Type = 123;
+    pub const AV_CODEC_ID_AURA2: Type = 124;
+    pub const AV_CODEC_ID_V210X: Type = 125;
+    pub const AV_CODEC_ID_TMV: Type = 126;
+    pub const AV_CODEC_ID_V210: Type = 127;
+    pub const AV_CODEC_ID_DPX: Type = 128;
+    pub const AV_CODEC_ID_MAD: Type = 129;
+    pub const AV_CODEC_ID_FRWU: Type = 130;
+    pub const AV_CODEC_ID_FLASHSV2: Type = 131;
+    pub const AV_CODEC_ID_CDGRAPHICS: Type = 132;
+    pub const AV_CODEC_ID_R210: Type = 133;
+    pub const AV_CODEC_ID_ANM: Type = 134;
+    pub const AV_CODEC_ID_BINKVIDEO: Type = 135;
+    pub const AV_CODEC_ID_IFF_ILBM: Type = 136;
+    pub const AV_CODEC_ID_KGV1: Type = 137;
+    pub const AV_CODEC_ID_YOP: Type = 138;
+    pub const AV_CODEC_ID_VP8: Type = 139;
+    pub const AV_CODEC_ID_PICTOR: Type = 140;
+    pub const AV_CODEC_ID_ANSI: Type = 141;
+    pub const AV_CODEC_ID_A64_MULTI: Type = 142;
+    pub const AV_CODEC_ID_A64_MULTI5: Type = 143;
+    pub const AV_CODEC_ID_R10K: Type = 144;
+    pub const AV_CODEC_ID_MXPEG: Type = 145;
+    pub const AV_CODEC_ID_LAGARITH: Type = 146;
+    pub const AV_CODEC_ID_PRORES: Type = 147;
+    pub const AV_CODEC_ID_JV: Type = 148;
+    pub const AV_CODEC_ID_DFA: Type = 149;
+    pub const AV_CODEC_ID_WMV3IMAGE: Type = 150;
+    pub const AV_CODEC_ID_VC1IMAGE: Type = 151;
+    pub const AV_CODEC_ID_UTVIDEO: Type = 152;
+    pub const AV_CODEC_ID_BMV_VIDEO: Type = 153;
+    pub const AV_CODEC_ID_VBLE: Type = 154;
+    pub const AV_CODEC_ID_DXTORY: Type = 155;
+    pub const AV_CODEC_ID_V410: Type = 156;
+    pub const AV_CODEC_ID_XWD: Type = 157;
+    pub const AV_CODEC_ID_CDXL: Type = 158;
+    pub const AV_CODEC_ID_XBM: Type = 159;
+    pub const AV_CODEC_ID_ZEROCODEC: Type = 160;
+    pub const AV_CODEC_ID_MSS1: Type = 161;
+    pub const AV_CODEC_ID_MSA1: Type = 162;
+    pub const AV_CODEC_ID_TSCC2: Type = 163;
+    pub const AV_CODEC_ID_MTS2: Type = 164;
+    pub const AV_CODEC_ID_CLLC: Type = 165;
+    pub const AV_CODEC_ID_MSS2: Type = 166;
+    pub const AV_CODEC_ID_VP9: Type = 167;
+    pub const AV_CODEC_ID_AIC: Type = 168;
+    pub const AV_CODEC_ID_ESCAPE130: Type = 169;
+    pub const AV_CODEC_ID_G2M: Type = 170;
+    pub const AV_CODEC_ID_WEBP: Type = 171;
+    pub const AV_CODEC_ID_HNM4_VIDEO: Type = 172;
+    pub const AV_CODEC_ID_HEVC: Type = 173;
+    pub const AV_CODEC_ID_FIC: Type = 174;
+    pub const AV_CODEC_ID_ALIAS_PIX: Type = 175;
+    pub const AV_CODEC_ID_BRENDER_PIX: Type = 176;
+    pub const AV_CODEC_ID_PAF_VIDEO: Type = 177;
+    pub const AV_CODEC_ID_EXR: Type = 178;
+    pub const AV_CODEC_ID_VP7: Type = 179;
+    pub const AV_CODEC_ID_SANM: Type = 180;
+    pub const AV_CODEC_ID_SGIRLE: Type = 181;
+    pub const AV_CODEC_ID_MVC1: Type = 182;
+    pub const AV_CODEC_ID_MVC2: Type = 183;
+    pub const AV_CODEC_ID_HQX: Type = 184;
+    pub const AV_CODEC_ID_TDSC: Type = 185;
+    pub const AV_CODEC_ID_HQ_HQA: Type = 186;
+    pub const AV_CODEC_ID_HAP: Type = 187;
+    pub const AV_CODEC_ID_DDS: Type = 188;
+    pub const AV_CODEC_ID_DXV: Type = 189;
+    pub const AV_CODEC_ID_SCREENPRESSO: Type = 190;
+    pub const AV_CODEC_ID_RSCC: Type = 191;
+    pub const AV_CODEC_ID_AVS2: Type = 192;
+    pub const AV_CODEC_ID_Y41P: Type = 32768;
+    pub const AV_CODEC_ID_AVRP: Type = 32769;
+    pub const AV_CODEC_ID_012V: Type = 32770;
+    pub const AV_CODEC_ID_AVUI: Type = 32771;
+    pub const AV_CODEC_ID_AYUV: Type = 32772;
+    pub const AV_CODEC_ID_TARGA_Y216: Type = 32773;
+    pub const AV_CODEC_ID_V308: Type = 32774;
+    pub const AV_CODEC_ID_V408: Type = 32775;
+    pub const AV_CODEC_ID_YUV4: Type = 32776;
+    pub const AV_CODEC_ID_AVRN: Type = 32777;
+    pub const AV_CODEC_ID_CPIA: Type = 32778;
+    pub const AV_CODEC_ID_XFACE: Type = 32779;
+    pub const AV_CODEC_ID_SNOW: Type = 32780;
+    pub const AV_CODEC_ID_SMVJPEG: Type = 32781;
+    pub const AV_CODEC_ID_APNG: Type = 32782;
+    pub const AV_CODEC_ID_DAALA: Type = 32783;
+    pub const AV_CODEC_ID_CFHD: Type = 32784;
+    pub const AV_CODEC_ID_TRUEMOTION2RT: Type = 32785;
+    pub const AV_CODEC_ID_M101: Type = 32786;
+    pub const AV_CODEC_ID_MAGICYUV: Type = 32787;
+    pub const AV_CODEC_ID_SHEERVIDEO: Type = 32788;
+    pub const AV_CODEC_ID_YLC: Type = 32789;
+    pub const AV_CODEC_ID_PSD: Type = 32790;
+    pub const AV_CODEC_ID_PIXLET: Type = 32791;
+    pub const AV_CODEC_ID_SPEEDHQ: Type = 32792;
+    pub const AV_CODEC_ID_FMVC: Type = 32793;
+    pub const AV_CODEC_ID_SCPR: Type = 32794;
+    pub const AV_CODEC_ID_CLEARVIDEO: Type = 32795;
+    pub const AV_CODEC_ID_XPM: Type = 32796;
+    pub const AV_CODEC_ID_AV1: Type = 32797;
+    pub const AV_CODEC_ID_BITPACKED: Type = 32798;
+    pub const AV_CODEC_ID_MSCC: Type = 32799;
+    pub const AV_CODEC_ID_SRGC: Type = 32800;
+    pub const AV_CODEC_ID_SVG: Type = 32801;
+    pub const AV_CODEC_ID_GDV: Type = 32802;
+    pub const AV_CODEC_ID_FITS: Type = 32803;
+    pub const AV_CODEC_ID_IMM4: Type = 32804;
+    pub const AV_CODEC_ID_PROSUMER: Type = 32805;
+    pub const AV_CODEC_ID_MWSC: Type = 32806;
+    pub const AV_CODEC_ID_WCMV: Type = 32807;
+    pub const AV_CODEC_ID_RASC: Type = 32808;
+    pub const AV_CODEC_ID_FIRST_AUDIO: Type = 65536;
+    pub const AV_CODEC_ID_PCM_S16LE: Type = 65536;
+    pub const AV_CODEC_ID_PCM_S16BE: Type = 65537;
+    pub const AV_CODEC_ID_PCM_U16LE: Type = 65538;
+    pub const AV_CODEC_ID_PCM_U16BE: Type = 65539;
+    pub const AV_CODEC_ID_PCM_S8: Type = 65540;
+    pub const AV_CODEC_ID_PCM_U8: Type = 65541;
+    pub const AV_CODEC_ID_PCM_MULAW: Type = 65542;
+    pub const AV_CODEC_ID_PCM_ALAW: Type = 65543;
+    pub const AV_CODEC_ID_PCM_S32LE: Type = 65544;
+    pub const AV_CODEC_ID_PCM_S32BE: Type = 65545;
+    pub const AV_CODEC_ID_PCM_U32LE: Type = 65546;
+    pub const AV_CODEC_ID_PCM_U32BE: Type = 65547;
+    pub const AV_CODEC_ID_PCM_S24LE: Type = 65548;
+    pub const AV_CODEC_ID_PCM_S24BE: Type = 65549;
+    pub const AV_CODEC_ID_PCM_U24LE: Type = 65550;
+    pub const AV_CODEC_ID_PCM_U24BE: Type = 65551;
+    pub const AV_CODEC_ID_PCM_S24DAUD: Type = 65552;
+    pub const AV_CODEC_ID_PCM_ZORK: Type = 65553;
+    pub const AV_CODEC_ID_PCM_S16LE_PLANAR: Type = 65554;
+    pub const AV_CODEC_ID_PCM_DVD: Type = 65555;
+    pub const AV_CODEC_ID_PCM_F32BE: Type = 65556;
+    pub const AV_CODEC_ID_PCM_F32LE: Type = 65557;
+    pub const AV_CODEC_ID_PCM_F64BE: Type = 65558;
+    pub const AV_CODEC_ID_PCM_F64LE: Type = 65559;
+    pub const AV_CODEC_ID_PCM_BLURAY: Type = 65560;
+    pub const AV_CODEC_ID_PCM_LXF: Type = 65561;
+    pub const AV_CODEC_ID_S302M: Type = 65562;
+    pub const AV_CODEC_ID_PCM_S8_PLANAR: Type = 65563;
+    pub const AV_CODEC_ID_PCM_S24LE_PLANAR: Type = 65564;
+    pub const AV_CODEC_ID_PCM_S32LE_PLANAR: Type = 65565;
+    pub const AV_CODEC_ID_PCM_S16BE_PLANAR: Type = 65566;
+    pub const AV_CODEC_ID_PCM_S64LE: Type = 67584;
+    pub const AV_CODEC_ID_PCM_S64BE: Type = 67585;
+    pub const AV_CODEC_ID_PCM_F16LE: Type = 67586;
+    pub const AV_CODEC_ID_PCM_F24LE: Type = 67587;
+    pub const AV_CODEC_ID_PCM_VIDC: Type = 67588;
+    pub const AV_CODEC_ID_ADPCM_IMA_QT: Type = 69632;
+    pub const AV_CODEC_ID_ADPCM_IMA_WAV: Type = 69633;
+    pub const AV_CODEC_ID_ADPCM_IMA_DK3: Type = 69634;
+    pub const AV_CODEC_ID_ADPCM_IMA_DK4: Type = 69635;
+    pub const AV_CODEC_ID_ADPCM_IMA_WS: Type = 69636;
+    pub const AV_CODEC_ID_ADPCM_IMA_SMJPEG: Type = 69637;
+    pub const AV_CODEC_ID_ADPCM_MS: Type = 69638;
+    pub const AV_CODEC_ID_ADPCM_4XM: Type = 69639;
+    pub const AV_CODEC_ID_ADPCM_XA: Type = 69640;
+    pub const AV_CODEC_ID_ADPCM_ADX: Type = 69641;
+    pub const AV_CODEC_ID_ADPCM_EA: Type = 69642;
+    pub const AV_CODEC_ID_ADPCM_G726: Type = 69643;
+    pub const AV_CODEC_ID_ADPCM_CT: Type = 69644;
+    pub const AV_CODEC_ID_ADPCM_SWF: Type = 69645;
+    pub const AV_CODEC_ID_ADPCM_YAMAHA: Type = 69646;
+    pub const AV_CODEC_ID_ADPCM_SBPRO_4: Type = 69647;
+    pub const AV_CODEC_ID_ADPCM_SBPRO_3: Type = 69648;
+    pub const AV_CODEC_ID_ADPCM_SBPRO_2: Type = 69649;
+    pub const AV_CODEC_ID_ADPCM_THP: Type = 69650;
+    pub const AV_CODEC_ID_ADPCM_IMA_AMV: Type = 69651;
+    pub const AV_CODEC_ID_ADPCM_EA_R1: Type = 69652;
+    pub const AV_CODEC_ID_ADPCM_EA_R3: Type = 69653;
+    pub const AV_CODEC_ID_ADPCM_EA_R2: Type = 69654;
+    pub const AV_CODEC_ID_ADPCM_IMA_EA_SEAD: Type = 69655;
+    pub const AV_CODEC_ID_ADPCM_IMA_EA_EACS: Type = 69656;
+    pub const AV_CODEC_ID_ADPCM_EA_XAS: Type = 69657;
+    pub const AV_CODEC_ID_ADPCM_EA_MAXIS_XA: Type = 69658;
+    pub const AV_CODEC_ID_ADPCM_IMA_ISS: Type = 69659;
+    pub const AV_CODEC_ID_ADPCM_G722: Type = 69660;
+    pub const AV_CODEC_ID_ADPCM_IMA_APC: Type = 69661;
+    pub const AV_CODEC_ID_ADPCM_VIMA: Type = 69662;
+    pub const AV_CODEC_ID_ADPCM_AFC: Type = 71680;
+    pub const AV_CODEC_ID_ADPCM_IMA_OKI: Type = 71681;
+    pub const AV_CODEC_ID_ADPCM_DTK: Type = 71682;
+    pub const AV_CODEC_ID_ADPCM_IMA_RAD: Type = 71683;
+    pub const AV_CODEC_ID_ADPCM_G726LE: Type = 71684;
+    pub const AV_CODEC_ID_ADPCM_THP_LE: Type = 71685;
+    pub const AV_CODEC_ID_ADPCM_PSX: Type = 71686;
+    pub const AV_CODEC_ID_ADPCM_AICA: Type = 71687;
+    pub const AV_CODEC_ID_ADPCM_IMA_DAT4: Type = 71688;
+    pub const AV_CODEC_ID_ADPCM_MTAF: Type = 71689;
+    pub const AV_CODEC_ID_AMR_NB: Type = 73728;
+    pub const AV_CODEC_ID_AMR_WB: Type = 73729;
+    pub const AV_CODEC_ID_RA_144: Type = 77824;
+    pub const AV_CODEC_ID_RA_288: Type = 77825;
+    pub const AV_CODEC_ID_ROQ_DPCM: Type = 81920;
+    pub const AV_CODEC_ID_INTERPLAY_DPCM: Type = 81921;
+    pub const AV_CODEC_ID_XAN_DPCM: Type = 81922;
+    pub const AV_CODEC_ID_SOL_DPCM: Type = 81923;
+    pub const AV_CODEC_ID_SDX2_DPCM: Type = 83968;
+    pub const AV_CODEC_ID_GREMLIN_DPCM: Type = 83969;
+    pub const AV_CODEC_ID_MP2: Type = 86016;
+    pub const AV_CODEC_ID_MP3: Type = 86017;
+    pub const AV_CODEC_ID_AAC: Type = 86018;
+    pub const AV_CODEC_ID_AC3: Type = 86019;
+    pub const AV_CODEC_ID_DTS: Type = 86020;
+    pub const AV_CODEC_ID_VORBIS: Type = 86021;
+    pub const AV_CODEC_ID_DVAUDIO: Type = 86022;
+    pub const AV_CODEC_ID_WMAV1: Type = 86023;
+    pub const AV_CODEC_ID_WMAV2: Type = 86024;
+    pub const AV_CODEC_ID_MACE3: Type = 86025;
+    pub const AV_CODEC_ID_MACE6: Type = 86026;
+    pub const AV_CODEC_ID_VMDAUDIO: Type = 86027;
+    pub const AV_CODEC_ID_FLAC: Type = 86028;
+    pub const AV_CODEC_ID_MP3ADU: Type = 86029;
+    pub const AV_CODEC_ID_MP3ON4: Type = 86030;
+    pub const AV_CODEC_ID_SHORTEN: Type = 86031;
+    pub const AV_CODEC_ID_ALAC: Type = 86032;
+    pub const AV_CODEC_ID_WESTWOOD_SND1: Type = 86033;
+    pub const AV_CODEC_ID_GSM: Type = 86034;
+    pub const AV_CODEC_ID_QDM2: Type = 86035;
+    pub const AV_CODEC_ID_COOK: Type = 86036;
+    pub const AV_CODEC_ID_TRUESPEECH: Type = 86037;
+    pub const AV_CODEC_ID_TTA: Type = 86038;
+    pub const AV_CODEC_ID_SMACKAUDIO: Type = 86039;
+    pub const AV_CODEC_ID_QCELP: Type = 86040;
+    pub const AV_CODEC_ID_WAVPACK: Type = 86041;
+    pub const AV_CODEC_ID_DSICINAUDIO: Type = 86042;
+    pub const AV_CODEC_ID_IMC: Type = 86043;
+    pub const AV_CODEC_ID_MUSEPACK7: Type = 86044;
+    pub const AV_CODEC_ID_MLP: Type = 86045;
+    pub const AV_CODEC_ID_GSM_MS: Type = 86046;
+    pub const AV_CODEC_ID_ATRAC3: Type = 86047;
+    pub const AV_CODEC_ID_APE: Type = 86048;
+    pub const AV_CODEC_ID_NELLYMOSER: Type = 86049;
+    pub const AV_CODEC_ID_MUSEPACK8: Type = 86050;
+    pub const AV_CODEC_ID_SPEEX: Type = 86051;
+    pub const AV_CODEC_ID_WMAVOICE: Type = 86052;
+    pub const AV_CODEC_ID_WMAPRO: Type = 86053;
+    pub const AV_CODEC_ID_WMALOSSLESS: Type = 86054;
+    pub const AV_CODEC_ID_ATRAC3P: Type = 86055;
+    pub const AV_CODEC_ID_EAC3: Type = 86056;
+    pub const AV_CODEC_ID_SIPR: Type = 86057;
+    pub const AV_CODEC_ID_MP1: Type = 86058;
+    pub const AV_CODEC_ID_TWINVQ: Type = 86059;
+    pub const AV_CODEC_ID_TRUEHD: Type = 86060;
+    pub const AV_CODEC_ID_MP4ALS: Type = 86061;
+    pub const AV_CODEC_ID_ATRAC1: Type = 86062;
+    pub const AV_CODEC_ID_BINKAUDIO_RDFT: Type = 86063;
+    pub const AV_CODEC_ID_BINKAUDIO_DCT: Type = 86064;
+    pub const AV_CODEC_ID_AAC_LATM: Type = 86065;
+    pub const AV_CODEC_ID_QDMC: Type = 86066;
+    pub const AV_CODEC_ID_CELT: Type = 86067;
+    pub const AV_CODEC_ID_G723_1: Type = 86068;
+    pub const AV_CODEC_ID_G729: Type = 86069;
+    pub const AV_CODEC_ID_8SVX_EXP: Type = 86070;
+    pub const AV_CODEC_ID_8SVX_FIB: Type = 86071;
+    pub const AV_CODEC_ID_BMV_AUDIO: Type = 86072;
+    pub const AV_CODEC_ID_RALF: Type = 86073;
+    pub const AV_CODEC_ID_IAC: Type = 86074;
+    pub const AV_CODEC_ID_ILBC: Type = 86075;
+    pub const AV_CODEC_ID_OPUS: Type = 86076;
+    pub const AV_CODEC_ID_COMFORT_NOISE: Type = 86077;
+    pub const AV_CODEC_ID_TAK: Type = 86078;
+    pub const AV_CODEC_ID_METASOUND: Type = 86079;
+    pub const AV_CODEC_ID_PAF_AUDIO: Type = 86080;
+    pub const AV_CODEC_ID_ON2AVC: Type = 86081;
+    pub const AV_CODEC_ID_DSS_SP: Type = 86082;
+    pub const AV_CODEC_ID_CODEC2: Type = 86083;
+    pub const AV_CODEC_ID_FFWAVESYNTH: Type = 88064;
+    pub const AV_CODEC_ID_SONIC: Type = 88065;
+    pub const AV_CODEC_ID_SONIC_LS: Type = 88066;
+    pub const AV_CODEC_ID_EVRC: Type = 88067;
+    pub const AV_CODEC_ID_SMV: Type = 88068;
+    pub const AV_CODEC_ID_DSD_LSBF: Type = 88069;
+    pub const AV_CODEC_ID_DSD_MSBF: Type = 88070;
+    pub const AV_CODEC_ID_DSD_LSBF_PLANAR: Type = 88071;
+    pub const AV_CODEC_ID_DSD_MSBF_PLANAR: Type = 88072;
+    pub const AV_CODEC_ID_4GV: Type = 88073;
+    pub const AV_CODEC_ID_INTERPLAY_ACM: Type = 88074;
+    pub const AV_CODEC_ID_XMA1: Type = 88075;
+    pub const AV_CODEC_ID_XMA2: Type = 88076;
+    pub const AV_CODEC_ID_DST: Type = 88077;
+    pub const AV_CODEC_ID_ATRAC3AL: Type = 88078;
+    pub const AV_CODEC_ID_ATRAC3PAL: Type = 88079;
+    pub const AV_CODEC_ID_DOLBY_E: Type = 88080;
+    pub const AV_CODEC_ID_APTX: Type = 88081;
+    pub const AV_CODEC_ID_APTX_HD: Type = 88082;
+    pub const AV_CODEC_ID_SBC: Type = 88083;
+    pub const AV_CODEC_ID_ATRAC9: Type = 88084;
+    pub const AV_CODEC_ID_FIRST_SUBTITLE: Type = 94208;
+    pub const AV_CODEC_ID_DVD_SUBTITLE: Type = 94208;
+    pub const AV_CODEC_ID_DVB_SUBTITLE: Type = 94209;
+    pub const AV_CODEC_ID_TEXT: Type = 94210;
+    pub const AV_CODEC_ID_XSUB: Type = 94211;
+    pub const AV_CODEC_ID_SSA: Type = 94212;
+    pub const AV_CODEC_ID_MOV_TEXT: Type = 94213;
+    pub const AV_CODEC_ID_HDMV_PGS_SUBTITLE: Type = 94214;
+    pub const AV_CODEC_ID_DVB_TELETEXT: Type = 94215;
+    pub const AV_CODEC_ID_SRT: Type = 94216;
+    pub const AV_CODEC_ID_MICRODVD: Type = 96256;
+    pub const AV_CODEC_ID_EIA_608: Type = 96257;
+    pub const AV_CODEC_ID_JACOSUB: Type = 96258;
+    pub const AV_CODEC_ID_SAMI: Type = 96259;
+    pub const AV_CODEC_ID_REALTEXT: Type = 96260;
+    pub const AV_CODEC_ID_STL: Type = 96261;
+    pub const AV_CODEC_ID_SUBVIEWER1: Type = 96262;
+    pub const AV_CODEC_ID_SUBVIEWER: Type = 96263;
+    pub const AV_CODEC_ID_SUBRIP: Type = 96264;
+    pub const AV_CODEC_ID_WEBVTT: Type = 96265;
+    pub const AV_CODEC_ID_MPL2: Type = 96266;
+    pub const AV_CODEC_ID_VPLAYER: Type = 96267;
+    pub const AV_CODEC_ID_PJS: Type = 96268;
+    pub const AV_CODEC_ID_ASS: Type = 96269;
+    pub const AV_CODEC_ID_HDMV_TEXT_SUBTITLE: Type = 96270;
+    pub const AV_CODEC_ID_TTML: Type = 96271;
+    pub const AV_CODEC_ID_FIRST_UNKNOWN: Type = 98304;
+    pub const AV_CODEC_ID_TTF: Type = 98304;
+    pub const AV_CODEC_ID_SCTE_35: Type = 98305;
+    pub const AV_CODEC_ID_BINTEXT: Type = 100352;
+    pub const AV_CODEC_ID_XBIN: Type = 100353;
+    pub const AV_CODEC_ID_IDF: Type = 100354;
+    pub const AV_CODEC_ID_OTF: Type = 100355;
+    pub const AV_CODEC_ID_SMPTE_KLV: Type = 100356;
+    pub const AV_CODEC_ID_DVD_NAV: Type = 100357;
+    pub const AV_CODEC_ID_TIMED_ID3: Type = 100358;
+    pub const AV_CODEC_ID_BIN_DATA: Type = 100359;
+    pub const AV_CODEC_ID_PROBE: Type = 102400;
+    pub const AV_CODEC_ID_MPEG2TS: Type = 131072;
+    pub const AV_CODEC_ID_MPEG4SYSTEMS: Type = 131073;
+    pub const AV_CODEC_ID_FFMETADATA: Type = 135168;
+    pub const AV_CODEC_ID_WRAPPED_AVFRAME: Type = 135169;
+}
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct AVCodecDescriptor {
-    pub id: AVCodecID,
+    pub id: AVCodecID::Type,
     pub type_: AVMediaType,
     pub name: *const ::std::os::raw::c_char,
     pub long_name: *const ::std::os::raw::c_char,
@@ -12519,7 +12521,7 @@ pub struct AVCodecContext {
     pub log_level_offset: ::std::os::raw::c_int,
     pub codec_type: AVMediaType,
     pub codec: *const AVCodec,
-    pub codec_id: AVCodecID,
+    pub codec_id: AVCodecID::Type,
     pub codec_tag: ::std::os::raw::c_uint,
     pub priv_data: *mut ::std::os::raw::c_void,
     pub internal: *mut AVCodecInternal,
@@ -14894,7 +14896,7 @@ pub struct AVCodec {
     pub name: *const ::std::os::raw::c_char,
     pub long_name: *const ::std::os::raw::c_char,
     pub type_: AVMediaType,
-    pub id: AVCodecID,
+    pub id: AVCodecID::Type,
     pub capabilities: ::std::os::raw::c_int,
     pub supported_framerates: *const AVRational,
     pub pix_fmts: *const AVPixelFormat,
@@ -15323,7 +15325,7 @@ extern "C" {
 pub struct AVHWAccel {
     pub name: *const ::std::os::raw::c_char,
     pub type_: AVMediaType,
-    pub id: AVCodecID,
+    pub id: AVCodecID::Type,
     pub pix_fmt: AVPixelFormat,
     pub capabilities: ::std::os::raw::c_int,
     pub alloc_frame: ::std::option::Option<
@@ -15837,7 +15839,7 @@ fn bindgen_test_layout_AVSubtitle() {
 #[derive(Debug, Copy, Clone)]
 pub struct AVCodecParameters {
     pub codec_type: AVMediaType,
-    pub codec_id: AVCodecID,
+    pub codec_id: AVCodecID::Type,
     pub codec_tag: u32,
     pub extradata: *mut u8,
     pub extradata_size: ::std::os::raw::c_int,
@@ -16394,7 +16396,7 @@ extern "C" {
     pub fn av_packet_rescale_ts(pkt: *mut AVPacket, tb_src: AVRational, tb_dst: AVRational);
 }
 extern "C" {
-    pub fn avcodec_find_decoder(id: AVCodecID) -> *mut AVCodec;
+    pub fn avcodec_find_decoder(id: AVCodecID::Type) -> *mut AVCodec;
 }
 extern "C" {
     pub fn avcodec_find_decoder_by_name(name: *const ::std::os::raw::c_char) -> *mut AVCodec;
@@ -17100,7 +17102,7 @@ extern "C" {
     pub fn av_parser_close(s: *mut AVCodecParserContext);
 }
 extern "C" {
-    pub fn avcodec_find_encoder(id: AVCodecID) -> *mut AVCodec;
+    pub fn avcodec_find_encoder(id: AVCodecID::Type) -> *mut AVCodec;
 }
 extern "C" {
     pub fn avcodec_find_encoder_by_name(name: *const ::std::os::raw::c_char) -> *mut AVCodec;
@@ -17270,7 +17272,7 @@ extern "C" {
 }
 extern "C" {
     pub fn avcodec_profile_name(
-        codec_id: AVCodecID,
+        codec_id: AVCodecID::Type,
         profile: ::std::os::raw::c_int,
     ) -> *const ::std::os::raw::c_char;
 }
@@ -17319,13 +17321,13 @@ extern "C" {
     pub fn avcodec_flush_buffers(avctx: *mut AVCodecContext);
 }
 extern "C" {
-    pub fn av_get_bits_per_sample(codec_id: AVCodecID) -> ::std::os::raw::c_int;
+    pub fn av_get_bits_per_sample(codec_id: AVCodecID::Type) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn av_get_pcm_codec(fmt: AVSampleFormat, be: ::std::os::raw::c_int) -> AVCodecID;
+    pub fn av_get_pcm_codec(fmt: AVSampleFormat, be: ::std::os::raw::c_int) -> AVCodecID::Type;
 }
 extern "C" {
-    pub fn av_get_exact_bits_per_sample(codec_id: AVCodecID) -> ::std::os::raw::c_int;
+    pub fn av_get_exact_bits_per_sample(codec_id: AVCodecID::Type) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn av_get_audio_frame_duration(
@@ -17527,7 +17529,7 @@ fn bindgen_test_layout_AVBSFContext() {
 #[derive(Debug, Copy, Clone)]
 pub struct AVBitStreamFilter {
     pub name: *const ::std::os::raw::c_char,
-    pub codec_ids: *const AVCodecID,
+    pub codec_ids: *const AVCodecID::Type,
     pub priv_class: *const AVClass,
     pub priv_data_size: ::std::os::raw::c_int,
     pub init: ::std::option::Option<
@@ -17775,10 +17777,10 @@ extern "C" {
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn avcodec_get_type(codec_id: AVCodecID) -> AVMediaType;
+    pub fn avcodec_get_type(codec_id: AVCodecID::Type) -> AVMediaType;
 }
 extern "C" {
-    pub fn avcodec_get_name(id: AVCodecID) -> *const ::std::os::raw::c_char;
+    pub fn avcodec_get_name(id: AVCodecID::Type) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn avcodec_is_open(s: *mut AVCodecContext) -> ::std::os::raw::c_int;
@@ -17790,7 +17792,7 @@ extern "C" {
     pub fn av_codec_is_decoder(codec: *const AVCodec) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn avcodec_descriptor_get(id: AVCodecID) -> *const AVCodecDescriptor;
+    pub fn avcodec_descriptor_get(id: AVCodecID::Type) -> *const AVCodecDescriptor;
 }
 extern "C" {
     pub fn avcodec_descriptor_next(prev: *const AVCodecDescriptor) -> *const AVCodecDescriptor;
@@ -19262,11 +19264,11 @@ pub struct AVOutputFormat {
     #[doc = "< comma-separated filename extensions"]
     pub extensions: *const ::std::os::raw::c_char,
     #[doc = "< default audio codec"]
-    pub audio_codec: AVCodecID,
+    pub audio_codec: AVCodecID::Type,
     #[doc = "< default video codec"]
-    pub video_codec: AVCodecID,
+    pub video_codec: AVCodecID::Type,
     #[doc = "< default subtitle codec"]
-    pub subtitle_codec: AVCodecID,
+    pub subtitle_codec: AVCodecID::Type,
     #[doc = " can use flags: AVFMT_NOFILE, AVFMT_NEEDNUMBER,"]
     #[doc = " AVFMT_GLOBALHEADER, AVFMT_NOTIMESTAMPS, AVFMT_VARIABLE_FPS,"]
     #[doc = " AVFMT_NODIMENSIONS, AVFMT_NOSTREAMS, AVFMT_ALLOW_FLUSH,"]
@@ -19318,7 +19320,7 @@ pub struct AVOutputFormat {
     #[doc = "         MKTAG('A', 'P', 'I', 'C') if the codec is only supported as AV_DISPOSITION_ATTACHED_PIC"]
     pub query_codec: ::std::option::Option<
         unsafe extern "C" fn(
-            id: AVCodecID,
+            id: AVCodecID::Type,
             std_compliance: ::std::os::raw::c_int,
         ) -> ::std::os::raw::c_int,
     >,
@@ -19378,7 +19380,7 @@ pub struct AVOutputFormat {
         ) -> ::std::os::raw::c_int,
     >,
     #[doc = "< default data codec"]
-    pub data_codec: AVCodecID,
+    pub data_codec: AVCodecID::Type,
     #[doc = " Initialize format. May allocate data here, and set any AVFormatContext or"]
     #[doc = " AVStream parameters that need to be set before packets are sent."]
     #[doc = " This method must not write output."]
@@ -21685,13 +21687,13 @@ pub struct AVFormatContext {
     pub programs: *mut *mut AVProgram,
     #[doc = " Forced video codec_id."]
     #[doc = " Demuxing: Set by user."]
-    pub video_codec_id: AVCodecID,
+    pub video_codec_id: AVCodecID::Type,
     #[doc = " Forced audio codec_id."]
     #[doc = " Demuxing: Set by user."]
-    pub audio_codec_id: AVCodecID,
+    pub audio_codec_id: AVCodecID::Type,
     #[doc = " Forced subtitle codec_id."]
     #[doc = " Demuxing: Set by user."]
-    pub subtitle_codec_id: AVCodecID,
+    pub subtitle_codec_id: AVCodecID::Type,
     #[doc = " Maximum amount of memory in bytes to use for the index of each stream."]
     #[doc = " If the index exceeds this size, entries will be discarded as"]
     #[doc = " needed to maintain a smaller size. This can lead to slower or less"]
@@ -21896,7 +21898,7 @@ pub struct AVFormatContext {
     pub dump_separator: *mut u8,
     #[doc = " Forced Data codec_id."]
     #[doc = " Demuxing: Set by user."]
-    pub data_codec_id: AVCodecID,
+    pub data_codec_id: AVCodecID::Type,
     #[doc = " Called to open further IO contexts when needed for demuxing."]
     #[doc = ""]
     #[doc = " This can be set by the user application to perform security checks on"]
@@ -23573,7 +23575,7 @@ extern "C" {
         filename: *const ::std::os::raw::c_char,
         mime_type: *const ::std::os::raw::c_char,
         type_: AVMediaType,
-    ) -> AVCodecID;
+    ) -> AVCodecID::Type;
 }
 extern "C" {
     #[doc = " Get timing information for the data currently output."]
@@ -23666,7 +23668,7 @@ extern "C" {
     pub fn av_codec_get_id(
         tags: *const *const AVCodecTag,
         tag: ::std::os::raw::c_uint,
-    ) -> AVCodecID;
+    ) -> AVCodecID::Type;
 }
 extern "C" {
     #[doc = " Get the codec tag for the given codec id id."]
@@ -23677,7 +23679,7 @@ extern "C" {
     #[doc = " @param id   codec ID to match to a codec tag"]
     pub fn av_codec_get_tag(
         tags: *const *const AVCodecTag,
-        id: AVCodecID,
+        id: AVCodecID::Type,
     ) -> ::std::os::raw::c_uint;
 }
 extern "C" {
@@ -23690,7 +23692,7 @@ extern "C" {
     #[doc = " @return 0 if id was not found in tags, > 0 if it was found"]
     pub fn av_codec_get_tag2(
         tags: *const *const AVCodecTag,
-        id: AVCodecID,
+        id: AVCodecID::Type,
         tag: *mut ::std::os::raw::c_uint,
     ) -> ::std::os::raw::c_int;
 }
@@ -23856,7 +23858,7 @@ extern "C" {
     #[doc = "         A negative number if this information is not available."]
     pub fn avformat_query_codec(
         ofmt: *const AVOutputFormat,
-        codec_id: AVCodecID,
+        codec_id: AVCodecID::Type,
         std_compliance: ::std::os::raw::c_int,
     ) -> ::std::os::raw::c_int;
 }
@@ -25028,7 +25030,7 @@ extern "C" {
 pub struct AVDeviceCapabilitiesQuery {
     pub av_class: *const AVClass,
     pub device_context: *mut AVFormatContext,
-    pub codec: AVCodecID,
+    pub codec: AVCodecID::Type,
     pub sample_format: AVSampleFormat,
     pub pixel_format: AVPixelFormat,
     pub sample_rate: ::std::os::raw::c_int,
