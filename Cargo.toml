@@ -1,6 +1,6 @@
 [package]
 name    = "ffmpeg-sys"
-version = "3.3.2"
+version = "4.1.3"
 links   = "ffmpeg"
 
 authors = ["meh. <meh@schizofreni.co>", "Luminarys <postmaster@gensok.io>"]
